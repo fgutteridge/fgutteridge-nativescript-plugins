@@ -1,0 +1,38 @@
+{
+	"name": "@fgutteridge/nativescript-geocoder",
+	"version": "1.0.0",
+	"description": "Nativescript geocoder plugin",
+	"main": "index",
+	"typings": "index.d.ts",
+	"nativescript": {
+		"platforms": {
+			"ios": "6.0.0",
+			"android": "6.0.0"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fgutteridge/fgutteridge-nativescript-plugins.git"
+	},
+	"keywords": [
+		"NativeScript",
+		"JavaScript",
+		"TypeScript",
+		"iOS",
+		"Android",
+		"geocoder",
+		"geocode",
+		"reverse geocode"
+	],
+	"author": {
+		"name": "NativeScript",
+		"email": "oss@nativescript.org"
+	},
+	"bugs": {
+		"url": "https://github.com/fgutteridge/fgutteridge-nativescript-plugins/issues"
+	},
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/fgutteridge/fgutteridge-nativescript-plugins",
+	"readmeFilename": "README.md",
+	"bootstrapper": "@nativescript/plugin-seed"
+}

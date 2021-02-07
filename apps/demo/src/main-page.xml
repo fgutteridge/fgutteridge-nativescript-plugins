@@ -1,0 +1,17 @@
+
+<Page xmlns="http://www.nativescript.org/tns.xsd" xmlns:maps="@fgutteridge/nativescript-google-maps" loaded="pageLoaded">
+	<Button text="nativescript-geocoder" tap="{{ viewDemo }}" class="btn btn-primary view-demo"/>
+<Button text="nativescript-validator" tap="{{ viewDemo }}" class="btn btn-primary view-demo"/>
+<Button text="nativescript-dropdown" tap="{{ viewDemo }}" class="btn btn-primary view-demo"/>
+
+    <GridLayout>
+        <maps:mapView
+			latitude="{{ latitude }}" longitude="{{ longitude }}"
+			zoom="{{ zoom }}" minZoom="{{ minZoom }}" maxZoom="{{ maxZoom }}"
+			tilt="{{ tilt }}" bearing="{{ bearing }}"
+			mapAnimationsEnabled="{{ mapAnimationsEnabled }}"
+			mapReady="onMapReady"
+		>
+        </maps:mapView>
+    </GridLayout>
+</Page>
